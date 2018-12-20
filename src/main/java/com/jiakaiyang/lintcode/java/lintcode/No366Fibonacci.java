@@ -1,9 +1,12 @@
-package com.jiakaiyang.lintcode.java;
+package com.jiakaiyang.lintcode.java.lintcode;
 
 import java.math.BigInteger;
 
 /**
  * Created by jia on 17-4-8.
+ *
+ * https://www.lintcode.com/problem/fibonacci/description
+ *
  * 计算Fibonacci数列的第n项值
  * <p>
  * 查找斐波纳契数列中第 N 个数。
@@ -15,7 +18,7 @@ import java.math.BigInteger;
  * <p>
  * 0, 1, 1, 2, 3, 5, 8, 13, 21, 34 ...
  */
-public class Fibonacci {
+public class No366Fibonacci {
 
     /**
      * @param n: an integer

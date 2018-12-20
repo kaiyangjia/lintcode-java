@@ -1,9 +1,14 @@
-package com.jiakaiyang.lintcode.java;
+package com.jiakaiyang.lintcode.java.lintcode;
 
 /**
- * Lint Code 163 题
+ * Lint Code 167 题
+ *
+ * https://www.lintcode.com/problem/add-two-numbers/description
+ *
+ * 链表求和
+ *
  */
-public class LintCode163 {
+public class No167AddTwoNumbers {
 
     /*
      * @param l1: the first list

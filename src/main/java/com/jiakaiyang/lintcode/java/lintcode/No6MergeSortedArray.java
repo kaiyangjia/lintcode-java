@@ -1,8 +1,10 @@
-package com.jiakaiyang.lintcode.java;
+package com.jiakaiyang.lintcode.java.lintcode;
 
 /**
  * Created by jia on 17-4-8.
  * 合并两个排序的整数数组A和B变成一个新的数组。
+ *
+ * https://www.lintcode.com/problem/merge-two-sorted-arrays/description
  *
  * 思路：
  * 1. 创建一个长度是两个数组总和的空数组
@@ -10,7 +12,7 @@ package com.jiakaiyang.lintcode.java;
  * 3. 然后开始循环遍历总数组，从A，B数组中各取一个比较，较小的值添加到总数组，并且该数组的指针移动一位。
  * 4. 如果在循环的过程中有一个为空，则直接把另一个剩下的添加到总数组的后端。
  */
-public class MergeSortedArray {
+public class No6MergeSortedArray {
 
     /**
      * @param A and B: sorted integer array A and B.

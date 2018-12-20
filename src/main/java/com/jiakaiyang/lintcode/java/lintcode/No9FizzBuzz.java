@@ -1,11 +1,13 @@
-package com.jiakaiyang.lintcode.java;
+package com.jiakaiyang.lintcode.java.lintcode;
 
 import java.util.ArrayList;
 
 /**
  * Created by jia on 17-4-8.
+ *
+ * https://www.lintcode.com/problem/fizz-buzz/
  */
-public class FizzBuzz {
+public class No9FizzBuzz {
 
     /**
      * param n: As description.

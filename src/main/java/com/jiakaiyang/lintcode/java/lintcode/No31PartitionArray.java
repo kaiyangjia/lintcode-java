@@ -1,9 +1,11 @@
-package com.jiakaiyang.lintcode.java;
+package com.jiakaiyang.lintcode.java.lintcode;
 
 /**
  * Lint Code 31
+ *
+ * https://www.lintcode.com/problem/partition-array/description
  */
-public class LintCode031 {
+public class No31PartitionArray {
 
 
     /***

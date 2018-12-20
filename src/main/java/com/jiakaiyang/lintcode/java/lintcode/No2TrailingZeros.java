@@ -1,4 +1,4 @@
-package com.jiakaiyang.lintcode.java;
+package com.jiakaiyang.lintcode.java.lintcode;
 
 import java.math.BigInteger;
 import java.util.ArrayList;
@@ -6,6 +6,8 @@ import java.util.List;
 
 /**
  * Created by jia on 17-4-8.
+ * https://www.lintcode.com/problem/trailing-zeros/
+ *
  * 2. 尾部的零
  *
  * 设计一个算法，计算出n阶乘中尾部零的个数
@@ -18,7 +20,7 @@ import java.util.List;
 
  基本方法：求出n的阶乘，然后转成字符串判断末尾的0的个数
  */
-public class TrailingZeros {
+public class No2TrailingZeros {
 
     /**
      * 根据思路2求解

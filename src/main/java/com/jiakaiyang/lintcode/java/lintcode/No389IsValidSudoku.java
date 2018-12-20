@@ -1,9 +1,11 @@
-package com.jiakaiyang.lintcode.java;
+package com.jiakaiyang.lintcode.java.lintcode;
 
 import java.util.*;
 
 /**
  * Created by jia on 17-4-8.
+ * https://www.lintcode.com/problem/valid-sudoku/description
+ *
  * <p>
  * 请判定一个数独是否有效。
  * <p>
@@ -12,7 +14,7 @@ import java.util.*;
  * 注意事项
  * 一个合法的数独（仅部分填充）并不一定是可解的。我们仅需使填充的空格有效即可。
  */
-public class IsValidSudoku {
+public class No389IsValidSudoku {
 
     /**
      * TODO 测试不通过

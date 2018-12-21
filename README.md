@@ -13,4 +13,4 @@ LintCode and other assorted algorithm solutions, for java.
 - [x] No31PartitionArray [LintCode](https://www.lintcode.com/problem/partition-array/description)
 - [x] No167AddTwoNumbers [LintCode](https://www.lintcode.com/problem/add-two-numbers/description)
 - [x] No366Fibonacci [LintCode](https://www.lintcode.com/problem/fibonacci/description)
-- [ ] No389IsValidSudoku [LintCode](https://www.lintcode.com/problem/valid-sudoku/description)
+- [x] No389IsValidSudoku [LintCode](https://www.lintcode.com/problem/valid-sudoku/description)

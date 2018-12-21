@@ -9,5 +9,6 @@ public class No389IsValidSudokuTest {
 
     @Test
     public void TestResult(){
+
     }
 }

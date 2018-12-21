@@ -17,13 +17,11 @@ import java.util.*;
 public class No389IsValidSudoku {
 
     /**
-     * TODO 测试不通过
-     *
      * @param board: the board
      * @return: wether the Sudoku is valid
      */
     public static boolean isValidSudoku(char[][] board) {
-        return solution1(board);
+        return solution2(board);
     }
 
 
@@ -59,7 +57,7 @@ public class No389IsValidSudoku {
                 boolean[] visited = new boolean[9];
 
                 for (int k = 0; k < 9; k++) {
-                    boolean result = isLegal(visited, board[i + k / 3][j + k%3]);
+                    boolean result = isLegal(visited, board[i + k / 3][j + k % 3]);
                     if (!result) {
                         return false;
                     }

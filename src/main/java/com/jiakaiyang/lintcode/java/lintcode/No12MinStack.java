@@ -1,11 +1,13 @@
-package com.jiakaiyang.lintcode.java;
+package com.jiakaiyang.lintcode.java.lintcode;
 
 import java.util.Stack;
 
 /**
  * 12. 带最小值操作的栈
+ * <p>
+ * https://www.lintcode.com/problem/min-stack/description
  */
-public class LintCode012 {
+public class No12MinStack {
 
 
     public class MinStack {

@@ -1,11 +1,15 @@
-package com.jiakaiyang.lintcode.java;
+package com.jiakaiyang.lintcode.java.lintcode;
 
 /**
- * Lint Code 163 题
- * <p>
+ * Lint Code 167 题
+ *
+ * https://www.lintcode.com/problem/add-two-numbers/description
+ *
+ * 链表求和
  * 你有两个用链表代表的整数，其中每个节点包含一个数字。数字存储按照在原来整数中相反的顺序，使得第一个数字位于链表的开头。写出一个函数将两个整数相加，用链表形式返回和。
+ *
  */
-public class LintCode163 {
+public class No167AddTwoNumbers {
 
     /*
      * @param l1: the first list

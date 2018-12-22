@@ -16,3 +16,6 @@ local.properties
 .settings/
 .classpath
 .project
+
+# gradle
+*.iml

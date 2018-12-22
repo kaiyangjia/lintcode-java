@@ -1,12 +1,14 @@
-package com.jiakaiyang.lintcode.java;
+package com.jiakaiyang.lintcode.java.lintcode;
 
 /**
  * Created by jia on 2017/8/27.
  * 寻找丑数算法
  * <p>
+ * https://www.lintcode.com/problem/ugly-number-ii/description
+ * <p>
  * 参考博客：http://zhedahht.blog.163.com/blog/static/2541117420094245366965/
  */
-public class UglyNumber {
+public class No4UglyNumber2 {
 
     /**
      * @param n

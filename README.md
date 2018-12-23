@@ -16,6 +16,7 @@ LintCode and other assorted algorithm solutions, for java.
 - [ ] [No36ReverseLinkedList2](src/main/java/com/jiakaiyang/lintcode/java/lintcode/No36ReverseLinkedList2.java) [LintCode](https://www.lintcode.com/problem/reverse-linked-list-ii/description)
 - [x] [No39RecoverRotatedSortedArray](src/main/java/com/jiakaiyang/lintcode/java/lintcode/No39RecoverRotatedSortedArray.java) [LintCode](https://www.lintcode.com/problem/recover-rotated-sorted-array/description)
 - [x] [No40ImplementQueueByTwoStacks](src/main/java/com/jiakaiyang/lintcode/java/lintcode/No40ImplementQueueByTwoStacks.java) [LintCode](https://www.lintcode.com/problem/implement-queue-by-two-stacks/description)
+- [x] [No49SortLettersByCase](src/main/java/com/jiakaiyang/lintcode/java/lintcode/No49SortLettersByCase.java) [LintCode](https://www.lintcode.com/problem/sort-letters-by-case/description)
 - [x] [No56TwoSum](src/main/java/com/jiakaiyang/lintcode/java/lintcode/No56TwoSum.java) [LintCode](https://www.lintcode.com/problem/two-sum/description)
 - [x] [No167AddTwoNumbers](src/main/java/com/jiakaiyang/lintcode/java/lintcode/No167AddTwoNumbers.java) [LintCode](https://www.lintcode.com/problem/add-two-numbers/description)
 - [x] [No366Fibonacci](src/main/java/com/jiakaiyang/lintcode/java/lintcode/No366Fibonacci.java) [LintCode](https://www.lintcode.com/problem/fibonacci/description)

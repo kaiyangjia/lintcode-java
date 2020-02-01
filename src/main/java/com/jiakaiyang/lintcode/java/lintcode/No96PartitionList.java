@@ -3,6 +3,7 @@ package com.jiakaiyang.lintcode.java.lintcode;
 import java.util.List;
 
 /**
+ * TODO not done
  * https://www.lintcode.com/problem/partition-list/description
  * 96. 链表划分
  * 描述

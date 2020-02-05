@@ -1,5 +1,7 @@
 package com.jiakaiyang.lintcode.java.lintcode;
 
+import com.jiakaiyang.lintcode.java.lintcode.entity.TreeNode;
+
 /**
  * 7. 二叉树的序列化和反序列化
  * 描述
@@ -216,24 +218,4 @@ public class No7SerializeAndDeserializeBinaryTree {
         return Math.max(getTreeDeep(root.left), getTreeDeep(root.right)) + 1;
     }
 
-    /**
-     * Definition of TreeNode:
-     * public class TreeNode {
-     * public int val;
-     * public TreeNode left, right;
-     * public TreeNode(int val) {
-     * this.val = val;
-     * this.left = this.right = null;
-     * }
-     * }
-     */
-    public static class TreeNode {
-        public int val;
-        public TreeNode left, right;
-
-        public TreeNode(int val) {
-            this.val = val;
-            this.left = this.right = null;
-        }
-    }
 }

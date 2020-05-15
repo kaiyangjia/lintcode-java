@@ -1,9 +1,6 @@
 package com.jiakaiyang.lintcode.java.lintcode;
 
-import java.util.ArrayList;
-import java.util.Arrays;
-import java.util.Collections;
-import java.util.List;
+import java.util.*;
 
 /**
  * 15. https://www.lintcode.com/problem/permutations/description
@@ -120,5 +117,65 @@ public class No15Permute {
         }
 
         return false;
+    }
+
+    /**
+     * 回溯方案
+     *
+     * @param nums
+     * @return
+     */
+    public static List<List<Integer>> permute2(int[] nums) {
+        List<List<Integer>> result = new LinkedList<>();
+        // 初始的路径是空的
+        List<Integer> track = new LinkedList<>();
+
+        int targetLength = nums.length;
+        List<Integer> numsList = new LinkedList<>();
+        for (int i = 0; i < targetLength; i++) {
+            numsList.add(nums[i]);
+        }
+        backtrace(result, track, numsList, targetLength);
+        return result;
+    }
+
+    /**
+     * 回溯算法
+     *
+     * @param track 路径
+     * @param nums  选择列表
+     */
+    private static void backtrace(List<List<Integer>> result
+            , List<Integer> track
+            , List<Integer> nums
+            , int targetLength) {
+        if (track.size() == targetLength) {
+            // 选择列表为空，则结束回溯
+            // 添加候选结果，需要copy 一个数据，因为track 会在途中更改
+            List<Integer> copyTrack = new LinkedList<>(track);
+            result.add(copyTrack);
+            return;
+        }
+
+
+        for (int n : nums) {
+            // 添加一个元素
+            track.add(n);
+
+            // 进行下一层的树，获取下一层的选择条件
+            int size = nums.size();
+            List<Integer> nextNums = new LinkedList<Integer>();
+            for (int i = 0; i < size; i++) {
+                int nextN = nums.get(i);
+                if (nextN != n) {
+                    nextNums.add(nextN);
+                }
+            }
+
+            backtrace(result, track, nextNums, targetLength);
+
+            // 移除元素
+            track.remove(track.size() - 1);
+        }
     }
 }

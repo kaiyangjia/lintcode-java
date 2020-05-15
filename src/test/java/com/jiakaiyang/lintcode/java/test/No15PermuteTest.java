@@ -8,8 +8,13 @@ import java.util.List;
 public class No15PermuteTest {
     @Test
     public void TestPermute() {
-        int[] data = new int[]{3, 2, 4};
+        int[] data = new int[]{3, 2, 4, 7};
         List<List<Integer>> result = No15Permute.permute(data);
+        System.out.println(result);
+
+        System.out.println("回溯算法");
+
+        result = No15Permute.permute2(data);
         System.out.println(result);
     }
 }

@@ -8,7 +8,7 @@ import java.util.List;
 public class No15PermuteTest {
     @Test
     public void TestPermute() {
-        int[] data = new int[]{3, 2, 4, 7};
+        int[] data = new int[]{4, 3, 2, 1};
         List<List<Integer>> result = No15Permute.permute(data);
         System.out.println(result);
 
